@@ -10,17 +10,26 @@
 }
 
 .project{
+  border-radius: 15px;
   margin-left: 2%;
   margin-top: 5%;
   background-color: white;
   height: 105%;
   float: left;
   width: 30%;
-  height:60%;
+  height:70%;
   text-align: center;
 }
 
 .project img{
+  border-radius: 5px;
   margin-top: 10%;
   width :100%;
+}
+.codeused{
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.project a{
+  text-decoration: none;
 }
