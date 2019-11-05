@@ -30,11 +30,21 @@
   padding-left: 10%;
   font-size: 185%;
   color: white;
+  position: inherit;
 }
 #message h1{
 
 }
 
 .highlight{
+  color: #E4334C;
+}
+
+.navlink{
+  text-decoration: none;
+  color: 	#F5F5F5;
+}
+
+.navlink:hover{
   color: #E4334C;
 }

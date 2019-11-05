@@ -1,0 +1,26 @@
+#projects{
+  height: 100vh;
+  color: #E4334C;
+  background-color: #F8F8F8;
+}
+
+#title{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.project{
+  margin-left: 2%;
+  margin-top: 5%;
+  background-color: white;
+  height: 105%;
+  float: left;
+  width: 30%;
+  height:60%;
+  text-align: center;
+}
+
+.project img{
+  margin-top: 10%;
+  width :100%;
+}
