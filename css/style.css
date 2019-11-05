@@ -1,0 +1,12 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+#landing_page{
+  background-image: url("../images/landscape.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  height: 100vh;
+}
