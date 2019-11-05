@@ -2,6 +2,9 @@
         margin: 0;
         padding: 0;
         border: 0;
+        font-family: 'Quicksand', sans-serif;
+
+
     }
 
 #landing_page{
@@ -9,4 +12,29 @@
   background-color: #cccccc;
   background-size: cover;
   height: 100vh;
+}
+
+#bar li{
+  display: inline;
+  float: right;
+  margin: 15px;
+  padding-right: 25px;
+  font-size: 130%;
+  color: 	#F5F5F5;
+
+}
+
+#message{
+  position:relative;
+  padding-top: 37vh;
+  padding-left: 10%;
+  font-size: 185%;
+  color: white;
+}
+#message h1{
+
+}
+
+.highlight{
+  color: #E4334C;
 }
