@@ -2,6 +2,7 @@
   height: 100vh;
   color: #E4334C;
   background-color: #F8F8F8;
+  top:0px;
 }
 
 #title{
@@ -13,12 +14,19 @@
   border-radius: 15px;
   margin-left: 2%;
   margin-top: 5%;
-  background-color: white;
+  background-color: #F8F8F8;
   height: 105%;
   float: left;
   width: 30%;
   height:70%;
   text-align: center;
+  filter:  grayscale(55%);
+}
+
+
+.project:hover{
+  background-color: white;
+  filter:  #E4334C(0);
 }
 
 .project img{
@@ -26,10 +34,41 @@
   margin-top: 10%;
   width :100%;
 }
+
 .codeused{
   margin-top: 10%;
   margin-bottom: 15%;
 }
 .project a{
   text-decoration: none;
+}
+
+@media only screen and (max-width : 1200px) {
+    #projects{
+      height: 2400px;
+    }
+    .project {
+      width: 80%;
+      margin-left: 10%;
+      height: 725px;
+    }
+    .project img{
+      width: 60%;
+
+    }
+
+@media only screen and (max-width : 750px) {
+      #projects{
+        height: 1700px;
+      }
+      .project {
+        width: 80%;
+        margin-left: 10%;
+        height: 500px;
+        margin-bottom: 2px;
+      }
+      .project img{
+        width: 60%;
+
+      }
 }
