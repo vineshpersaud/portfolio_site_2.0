@@ -20,7 +20,7 @@
   width: 30%;
   height:70%;
   text-align: center;
-  filter:  grayscale(55%);
+  filter:  grayscale(25%);
 }
 
 
@@ -41,6 +41,16 @@
 }
 .project a{
   text-decoration: none;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #E4334C;
+  color: white;
+  padding: 4px 12px 4px 12px;
+  margin: 5px;
+  display: block;
+
 }
 
 @media only screen and (max-width : 1200px) {
