@@ -1,0 +1,9 @@
+#skills{
+   background-image: linear-gradient(to right, #101418 , #24252B);
+   height: 40vh;
+}
+
+#skills h1{
+  text-align: center;
+  color: white;
+}
