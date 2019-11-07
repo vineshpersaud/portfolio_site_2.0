@@ -16,7 +16,7 @@
   background-attachment: fixed;
 }
 
-#bar li{
+#navbar li{
   display: inline;
   float: right;
   margin: 15px;
@@ -24,6 +24,11 @@
   font-size: 130%;
   color: 	#F5F5F5;
 
+}
+
+#navbar{
+  width: 100%;
+  position: fixed;
 }
 
 #message{
