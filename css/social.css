@@ -1,0 +1,16 @@
+#sidebar{
+
+  width: 50px;
+  height: 100%;
+  position: absolute;
+}
+
+.social img{
+  width: 50px;
+}
+
+.social{
+  float: right;
+  margin: 5px;
+  padding: 5px;
+}
