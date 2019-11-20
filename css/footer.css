@@ -1,4 +1,38 @@
 #footer{
-  height: 70px;
+  height: 140px;
   background-color:#E4334C;
+}
+
+.linebreak{
+  width: 80%; /* Line width */
+  margin-top: 30px;
+  align: left;
+  margin: auto;
+  background-color: gray;
+  height: 2px;
+  position: relative;
+}
+#icons{
+  margin-top: 4px;
+  margin-bottom: 14px;
+  float: left;
+  margin-left: 80%;
+}
+
+#footer h3{
+  text-align: center;
+  margin-top: 20px;
+  color: white ;
+}
+
+@media only screen and (max-width : 1200px) {
+  #icons{
+    margin-left: 70%;
+  }
+}
+
+@media only screen and (max-width : 800px) {
+  #icons{
+    margin-left: 55%;
+  }
 }

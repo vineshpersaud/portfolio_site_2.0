@@ -6,11 +6,13 @@
 }
 
 .social img{
-  width: 50px;
+  width: 40px;
 }
 
 .social{
-  float: right;
-  margin: 5px;
+  display: inline;
+  margin-left: 60%;
+  margin: 10px;
+  margin-top: 20px
   padding: 5px;
 }
