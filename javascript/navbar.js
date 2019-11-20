@@ -1,6 +1,9 @@
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $("#navbar");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+$(document).ready(function() {
+  $('.navlink').click(function(event) {
+     event.preventDefault();
+     $('html, body').animate({
+          scrollTop : $(this.hash).offset().top
+      }, 1000);
   });
+
 });
